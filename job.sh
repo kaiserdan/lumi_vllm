@@ -49,7 +49,7 @@ python -m vllm.entrypoints.openai.api_server \
 SERVER=$!
 
 until curl -sf http://localhost:8000/v1/models >/dev/null ; do sleep 5 ; done
-python run_llm_api_multiple.py --max-context-length $CTX
+python custom_python_tool.py --max-context-length $CTX
 kill $SERVER
 cat  $LOG
 
