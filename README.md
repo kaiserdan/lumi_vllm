@@ -10,7 +10,7 @@ Follow these steps to get it running:
 
 2. Build vLLM and triton flash attention using this image
 
-```bash 2_build_image.sh```
+```EBU_USER_PREFIX=/flash/project_xxxxxxxxxx/username/EasyBuild bash 2_build_image.sh```
 
 3. Submit the job
 
