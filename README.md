@@ -1,6 +1,6 @@
 # Guide to build the latest version of VLLM using the PyTorch-2.6.0-rocm-6.2.4-python-3.12-singularity-20250404 container 
 
-Since the ROCm version available on LUMI is extremely outdated and doesn't support running the latest vLLM version (and therefore the latest reasoning LLMs). Here is a guid on how to build the latest vLLM version with the singularity image `PyTorch-2.6.0-rocm-6.2.4-python-3.12-singularity-2025040` which is the most recent available image that includes a ROCm version that is still compatible with the latest vLLM.
+Since the ROCm version available on LUMI is extremely outdated and doesn't support running the latest vLLM version (and therefore the latest reasoning LLMs). Here is a guide on how to build the latest vLLM version with the singularity image `PyTorch-2.6.0-rocm-6.2.4-python-3.12-singularity-2025040` which is the most recent available image that includes a ROCm version that is still compatible with the latest vLLM.
 
 Follow these steps to get it running:
 
